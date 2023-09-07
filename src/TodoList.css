@@ -1,0 +1,67 @@
+/* Add this CSS to your component or import it from an external stylesheet */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  input[type="text"] {
+    
+    width: 300px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 2px;
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  /* Optional: Add styling for the "There Is no Item In the list" message */
+  h4 {
+    color: #777;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
